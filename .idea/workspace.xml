@@ -4,15 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a6034d-3716-4c89-b47b-e3c348af6f14" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/printed_image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/66.jpg" afterDir="false" />
+    <list default="true" id="50a6034d-3716-4c89-b47b-e3c348af6f14" name="Changes" comment="Develop to check one letter at a time">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/test_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/test_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/test_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extract_letters_to_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/is_letter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/load_templates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/match_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/preprocess_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/A.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/B.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/C.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/E.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/F.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/G.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/H.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/I.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/J.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/K.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/L.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/N.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/O.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/P.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/Q.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/R.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/S.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/T.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/U.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/V.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/W.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/X.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/Y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/1/Z.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ImageProcessingProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ImageProcessingProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printed_image.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/66.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,28 +77,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.ImageProcessingProject.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "G:/CSC/Image Processing/ImageProcessingProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.ImageProcessingProject.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check_connected_letters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.load_templates.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/CSC/ImageProcessing/ImageProcessingProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\CSC\Image Processing\ImageProcessingProject" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\CSC\ImageProcessing\ImageProcessingProject\images" />
+      <recent name="G:\CSC\ImageProcessing\ImageProcessingProject\src" />
+      <recent name="G:\CSC\ImageProcessing\ImageProcessingProject\templates\1" />
+      <recent name="G:\CSC\ImageProcessing\ImageProcessingProject" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.ImageProcessingProject">
     <configuration name="ImageProcessingProject" type="PythonConfigurationType" factoryName="Python">
       <module name="ImageProcessingProject" />
       <option name="ENV_FILES" value="" />
@@ -106,11 +153,106 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="check_connected_letters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ImageProcessingProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_connected_letters.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="load_templates" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ImageProcessingProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/load_templates.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ImageProcessingProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ImageProcessingProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.load_templates" />
+        <item itemvalue="Python.check_connected_letters" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -126,7 +268,16 @@
       <workItem from="1713066394958" duration="2513000" />
       <workItem from="1713446110701" duration="286000" />
       <workItem from="1713500396043" duration="80000" />
-      <workItem from="1714124998310" duration="3232000" />
+      <workItem from="1714124998310" duration="3406000" />
+      <workItem from="1714998770975" duration="944000" />
+      <workItem from="1715000419980" duration="5023000" />
+      <workItem from="1715130420792" duration="4036000" />
+      <workItem from="1721006088868" duration="216000" />
+      <workItem from="1721006377604" duration="56000" />
+      <workItem from="1721006452635" duration="5817000" />
+      <workItem from="1725634237190" duration="17760000" />
+      <workItem from="1725763641600" duration="13098000" />
+      <workItem from="1725895783170" duration="17722000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -136,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713067382410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Develop to check one letter at a time">
+      <option name="closed" value="true" />
+      <created>1714131155204</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714131155204</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +314,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Develop to check one letter at a time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Develop to check one letter at a time" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ImageProcessingProject$test.coverage" NAME="test Coverage Results" MODIFIED="1721008200962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
